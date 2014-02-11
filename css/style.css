@@ -1,0 +1,93 @@
+/*** standard tags ***/
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font:14px Trebuchet MS, sans-serif;
+}
+
+h1 {
+	font-size:40px;
+}
+
+h2 {
+	font-size:28px;
+}
+
+/*** main.tpl.php ***/
+#content {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#main {
+	width:566px;
+	margin-top:10px;
+	padding:10px;
+	border:1px #000000 solid;
+	background:#cccccc;
+	float:left;
+}
+
+/*** menu.tpl.php ***/
+#menu {
+	float:left;
+}
+
+.menuitem {
+	width:180px;
+	margin:10px 10px 0 0;
+	padding:10px;
+	border:1px #000000 solid;
+	background:#cccccc;
+	list-style:none;
+}
+
+.menuitem a {
+	color:#000000;
+	text-decoration:none;
+}
+
+.menuitem a:hover {
+	color:#ff0000;
+	text-decoration:none;
+}
+
+/*** views ***/
+.view {
+	padding-left:1px;
+}
+
+/*** edits ***/
+.edit {
+	border:0px;
+	background:#cccccc;
+	font:14px Trebuchet MS, sans-serif;
+}
+
+textarea.edit {
+	width:100%;
+	overflow:auto;
+}
+
+/*** Professional experiences ***/
+.experience {
+	margin:10px 0;
+	padding:4px;
+	border:1px #cccccc solid;
+}
+
+span.highlight {
+	padding-left:1px;
+	color:#ff0000;
+}
+
+input.highlight {
+	border:0px;
+	background:#cccccc;
+	font:14px Trebuchet MS, sans-serif;
+	color:#ff0000;
+}

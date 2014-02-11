@@ -1,0 +1,50 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	text-align:center;
+	font:12px Arial, sans-serif;
+}
+
+#content {
+	width:734px;
+	margin:0 auto;
+	text-align:left;
+}
+
+h1 {
+	font-size:40px;
+	margin-top:10px;
+}
+
+#menu {
+	float:left;
+}
+
+.menuitem {
+	width:180px;
+	margin:10px 10px 0 0;
+	padding:10px;
+	border:1px #000000 solid;
+	background:#cccccc;
+	list-style:none;
+}
+
+#main {
+	width:500px;
+	margin-top:10px;
+	padding:10px;
+	border:1px #000000 solid;
+	background:#cccccc;
+	float:left;
+}
+
+#main h2 {
+	font-size:20px;
+}
+
+#main ul {
+	margin:10px;
+}
